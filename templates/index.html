@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+  </head>
+  <body>
+    <h1>Video Streaming Demonstration</h1>
+    <img src="{{ url_for('video_feed') }}" alt="VIDEO STREAM WILL TAKE PLACE HERE" >   <!--this function is genrating a URL for the function named video_feed defined inside app.py function -->
+    <img src="/static/1.jpg" alt="A WAY TO INSERT IMAGE IN THIS HTML WEB PAGE" />    <!--only this one is working in case of image-->
+    <img src="/1.jpg"  alt="ka" />               <!--in this case it is unable to find the image using that address in src tag-->
+    <h2>TO BE OR NOT TO BE</h2>
+    <img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">   <!--and this is also working but due to no internet connection it is unable to load the image from that website-->
+  </body>
+</html>
