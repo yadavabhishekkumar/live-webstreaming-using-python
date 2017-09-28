@@ -7,7 +7,7 @@ class Camera(object):
 #    files 1.jpg, 2.jpg and 3.jpg at a rate of one frame per second."""
 
 	def __init__(self):
-        # self.video = cv2.VideoCapture('video.mp4')
+        # self.video = cv2.VideoCapture('video.mp4')   for streaming any video file over the webpage
 		self.camera = cv2.VideoCapture(0)
 	def get_frame(self):
 		
